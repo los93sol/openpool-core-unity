@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: ba10f8d979b1ac74998a539bbba6449e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera_Interest
+    100004: Camera_Root
+    100006: fish_FUE_YAKKO:anal_fin_bone
+    100008: fish_FUE_YAKKO:anal_fin_eff
+    100010: fish_FUE_YAKKO:anal_fin_root
+    100012: fish_FUE_YAKKO:body_bone
+    100014: fish_FUE_YAKKO:body_eff
+    100016: fish_FUE_YAKKO:body_root
+    100018: fish_FUE_YAKKO:dorsal_fin_back_bone
+    100020: fish_FUE_YAKKO:dorsal_fin_back_eff
+    100022: fish_FUE_YAKKO:dorsal_fin_back_root
+    100024: fish_FUE_YAKKO:dorsal_fin_front_bone
+    100026: fish_FUE_YAKKO:dorsal_fin_front_eff
+    100028: fish_FUE_YAKKO:dorsal_fin_front_root
+    100030: fish_FUE_YAKKO:fish_FUE_YAKKO
+    100032: fish_FUE_YAKKO:fish_FUE_YAKKO_Model:fish_FUE_YAKKO
+    100034: fish_FUE_YAKKO:fish_FUE_YAKKO_Model:fish_FUE_YAKKO_Model
+    100036: fish_FUE_YAKKO:global_C0_ctl
+    100038: fish_FUE_YAKKO:head_bone
+    100040: fish_FUE_YAKKO:head_eff
+    100042: fish_FUE_YAKKO:head_root
+    100044: fish_FUE_YAKKO:L_eye02_lattice68
+    100046: fish_FUE_YAKKO:L_eye70
+    100048: fish_FUE_YAKKO:L_pectoral_fin_bone
+    100050: fish_FUE_YAKKO:L_pectoral_fin_eff
+    100052: fish_FUE_YAKKO:L_pectoral_fin_root
+    100054: fish_FUE_YAKKO:n_eye01_0
+    100056: fish_FUE_YAKKO:n_L_eye70
+    100058: fish_FUE_YAKKO:n_R_eye70
+    100060: fish_FUE_YAKKO:R_eye02_lattice68
+    100062: fish_FUE_YAKKO:R_eye70
+    100064: fish_FUE_YAKKO:R_pectoral_fin_bone
+    100066: fish_FUE_YAKKO:R_pectoral_fin_eff
+    100068: fish_FUE_YAKKO:R_pectoral_fin_root
+    100070: fish_FUE_YAKKO:tail_fin_bone
+    100072: fish_FUE_YAKKO:tail_fin_eff
+    100074: fish_FUE_YAKKO:tail_fin_root
+    100076: //RootNode
+    100078: light
+    400000: Camera
+    400002: Camera_Interest
+    400004: Camera_Root
+    400006: fish_FUE_YAKKO:anal_fin_bone
+    400008: fish_FUE_YAKKO:anal_fin_eff
+    400010: fish_FUE_YAKKO:anal_fin_root
+    400012: fish_FUE_YAKKO:body_bone
+    400014: fish_FUE_YAKKO:body_eff
+    400016: fish_FUE_YAKKO:body_root
+    400018: fish_FUE_YAKKO:dorsal_fin_back_bone
+    400020: fish_FUE_YAKKO:dorsal_fin_back_eff
+    400022: fish_FUE_YAKKO:dorsal_fin_back_root
+    400024: fish_FUE_YAKKO:dorsal_fin_front_bone
+    400026: fish_FUE_YAKKO:dorsal_fin_front_eff
+    400028: fish_FUE_YAKKO:dorsal_fin_front_root
+    400030: fish_FUE_YAKKO:fish_FUE_YAKKO
+    400032: fish_FUE_YAKKO:fish_FUE_YAKKO_Model:fish_FUE_YAKKO
+    400034: fish_FUE_YAKKO:fish_FUE_YAKKO_Model:fish_FUE_YAKKO_Model
+    400036: fish_FUE_YAKKO:global_C0_ctl
+    400038: fish_FUE_YAKKO:head_bone
+    400040: fish_FUE_YAKKO:head_eff
+    400042: fish_FUE_YAKKO:head_root
+    400044: fish_FUE_YAKKO:L_eye02_lattice68
+    400046: fish_FUE_YAKKO:L_eye70
+    400048: fish_FUE_YAKKO:L_pectoral_fin_bone
+    400050: fish_FUE_YAKKO:L_pectoral_fin_eff
+    400052: fish_FUE_YAKKO:L_pectoral_fin_root
+    400054: fish_FUE_YAKKO:n_eye01_0
+    400056: fish_FUE_YAKKO:n_L_eye70
+    400058: fish_FUE_YAKKO:n_R_eye70
+    400060: fish_FUE_YAKKO:R_eye02_lattice68
+    400062: fish_FUE_YAKKO:R_eye70
+    400064: fish_FUE_YAKKO:R_pectoral_fin_bone
+    400066: fish_FUE_YAKKO:R_pectoral_fin_eff
+    400068: fish_FUE_YAKKO:R_pectoral_fin_root
+    400070: fish_FUE_YAKKO:tail_fin_bone
+    400072: fish_FUE_YAKKO:tail_fin_eff
+    400074: fish_FUE_YAKKO:tail_fin_root
+    400076: //RootNode
+    400078: light
+    2300000: fish_FUE_YAKKO:L_eye70
+    2300002: fish_FUE_YAKKO:R_eye70
+    3300000: fish_FUE_YAKKO:L_eye70
+    3300002: fish_FUE_YAKKO:R_eye70
+    4300000: fish_FUE_YAKKO:fish_FUE_YAKKO_Model:fish_FUE_YAKKO
+    4300002: fish_FUE_YAKKO:L_eye70
+    4300004: fish_FUE_YAKKO:R_eye70
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fish_FUE_YAKKO:fish_FUE_YAKKO_Model:fish_FUE_YAKKO
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,137 @@
+fileFormatVersion: 2
+guid: 8beeec5863183f44cace3da213d0a1c1
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Camera_Interest
+    100004: Camera_Root
+    100006: fish_HAGI:body_bone
+    100008: fish_HAGI:body_eff
+    100010: fish_HAGI:body_root
+    100012: fish_HAGI:fish_HAGI
+    100014: fish_HAGI:fish_HAGI_Model:fish_HAGI
+    100016: fish_HAGI:fish_HAGI_Model:fish_HAGI_Model
+    100018: fish_HAGI:global_C0_ctl
+    100020: fish_HAGI:head_bone
+    100022: fish_HAGI:head_eff
+    100024: fish_HAGI:head_root
+    100026: fish_HAGI:jaw_bone
+    100028: fish_HAGI:jaw_eff
+    100030: fish_HAGI:jaw_root
+    100032: fish_HAGI:L_eye02_lattice68
+    100034: fish_HAGI:L_eye70
+    100036: fish_HAGI:L_pectoral_fin_bone
+    100038: fish_HAGI:L_pectoral_fin_eff
+    100040: fish_HAGI:L_pectoral_fin_root
+    100042: fish_HAGI:n_eye01_0
+    100044: fish_HAGI:n_L_eye70
+    100046: fish_HAGI:n_R_eye70
+    100048: fish_HAGI:R_eye02_lattice68
+    100050: fish_HAGI:R_eye70
+    100052: fish_HAGI:R_pectoral_fin_bone
+    100054: fish_HAGI:R_pectoral_fin_eff
+    100056: fish_HAGI:R_pectoral_fin_root
+    100058: fish_HAGI:tail_fin_bone
+    100060: fish_HAGI:tail_fin_eff
+    100062: fish_HAGI:tail_fin_root
+    100064: //RootNode
+    100066: light
+    400000: Camera
+    400002: Camera_Interest
+    400004: Camera_Root
+    400006: fish_HAGI:body_bone
+    400008: fish_HAGI:body_eff
+    400010: fish_HAGI:body_root
+    400012: fish_HAGI:fish_HAGI
+    400014: fish_HAGI:fish_HAGI_Model:fish_HAGI
+    400016: fish_HAGI:fish_HAGI_Model:fish_HAGI_Model
+    400018: fish_HAGI:global_C0_ctl
+    400020: fish_HAGI:head_bone
+    400022: fish_HAGI:head_eff
+    400024: fish_HAGI:head_root
+    400026: fish_HAGI:jaw_bone
+    400028: fish_HAGI:jaw_eff
+    400030: fish_HAGI:jaw_root
+    400032: fish_HAGI:L_eye02_lattice68
+    400034: fish_HAGI:L_eye70
+    400036: fish_HAGI:L_pectoral_fin_bone
+    400038: fish_HAGI:L_pectoral_fin_eff
+    400040: fish_HAGI:L_pectoral_fin_root
+    400042: fish_HAGI:n_eye01_0
+    400044: fish_HAGI:n_L_eye70
+    400046: fish_HAGI:n_R_eye70
+    400048: fish_HAGI:R_eye02_lattice68
+    400050: fish_HAGI:R_eye70
+    400052: fish_HAGI:R_pectoral_fin_bone
+    400054: fish_HAGI:R_pectoral_fin_eff
+    400056: fish_HAGI:R_pectoral_fin_root
+    400058: fish_HAGI:tail_fin_bone
+    400060: fish_HAGI:tail_fin_eff
+    400062: fish_HAGI:tail_fin_root
+    400064: //RootNode
+    400066: light
+    2300000: fish_HAGI:L_eye70
+    2300002: fish_HAGI:R_eye70
+    3300000: fish_HAGI:L_eye70
+    3300002: fish_HAGI:R_eye70
+    4300000: fish_HAGI:fish_HAGI_Model:fish_HAGI
+    4300002: fish_HAGI:L_eye70
+    4300004: fish_HAGI:R_eye70
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fish_HAGI:fish_HAGI_Model:fish_HAGI
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

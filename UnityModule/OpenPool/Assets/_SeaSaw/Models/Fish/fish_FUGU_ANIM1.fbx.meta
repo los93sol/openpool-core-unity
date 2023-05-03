@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: 519bcf5c05ec5bd40b14fd6220c81011
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: fish_FUGU:fish_FUGU_Model:body
+    100002: fish_FUGU:fish_FUGU_Model:fish_FUGU_Model
+    100004: fish_FUGU:fish_FUGU_Rig:chest
+    100006: fish_FUGU:fish_FUGU_Rig:dorsal_fin_bone
+    100008: fish_FUGU:fish_FUGU_Rig:dorsal_fin_eff
+    100010: fish_FUGU:fish_FUGU_Rig:dorsal_fin_root
+    100012: fish_FUGU:fish_FUGU_Rig:fish_FUGU_Rig
+    100014: fish_FUGU:fish_FUGU_Rig:global_C0_ctl
+    100016: fish_FUGU:fish_FUGU_Rig:head_bone
+    100018: fish_FUGU:fish_FUGU_Rig:head_eff
+    100020: fish_FUGU:fish_FUGU_Rig:head_root
+    100022: fish_FUGU:fish_FUGU_Rig:hip_bone
+    100024: fish_FUGU:fish_FUGU_Rig:hip_eff
+    100026: fish_FUGU:fish_FUGU_Rig:hip_root
+    100028: fish_FUGU:fish_FUGU_Rig:L_eye
+    100030: fish_FUGU:fish_FUGU_Rig:L_eye02_lattice
+    100032: fish_FUGU:fish_FUGU_Rig:L_pectoral_fin_bone
+    100034: fish_FUGU:fish_FUGU_Rig:L_pectoral_fin_eff
+    100036: fish_FUGU:fish_FUGU_Rig:L_pectoral_fin_root
+    100038: fish_FUGU:fish_FUGU_Rig:lower_jaw_bone
+    100040: fish_FUGU:fish_FUGU_Rig:lower_jaw_eff
+    100042: fish_FUGU:fish_FUGU_Rig:lower_jaw_root
+    100044: fish_FUGU:fish_FUGU_Rig:mouth_ctl
+    100046: fish_FUGU:fish_FUGU_Rig:n_eye02_0
+    100048: fish_FUGU:fish_FUGU_Rig:n_L_eye
+    100050: fish_FUGU:fish_FUGU_Rig:n_R_eye
+    100052: fish_FUGU:fish_FUGU_Rig:pelvic_fin_bone
+    100054: fish_FUGU:fish_FUGU_Rig:pelvic_fin_eff
+    100056: fish_FUGU:fish_FUGU_Rig:pelvic_fin_root
+    100058: fish_FUGU:fish_FUGU_Rig:R_eye
+    100060: fish_FUGU:fish_FUGU_Rig:R_eye02_lattice
+    100062: fish_FUGU:fish_FUGU_Rig:R_pectoral_fin_bone
+    100064: fish_FUGU:fish_FUGU_Rig:R_pectoral_fin_eff
+    100066: fish_FUGU:fish_FUGU_Rig:R_pectoral_fin_root
+    100068: fish_FUGU:fish_FUGU_Rig:tail_fin_bone
+    100070: fish_FUGU:fish_FUGU_Rig:tail_fin_eff
+    100072: fish_FUGU:fish_FUGU_Rig:tail_fin_root
+    100074: fish_FUGU:fish_FUGU_Rig:upper_jaw_bone
+    100076: fish_FUGU:fish_FUGU_Rig:upper_jaw_eff
+    100078: fish_FUGU:fish_FUGU_Rig:upper_jaw_root
+    100080: //RootNode
+    400000: fish_FUGU:fish_FUGU_Model:body
+    400002: fish_FUGU:fish_FUGU_Model:fish_FUGU_Model
+    400004: fish_FUGU:fish_FUGU_Rig:chest
+    400006: fish_FUGU:fish_FUGU_Rig:dorsal_fin_bone
+    400008: fish_FUGU:fish_FUGU_Rig:dorsal_fin_eff
+    400010: fish_FUGU:fish_FUGU_Rig:dorsal_fin_root
+    400012: fish_FUGU:fish_FUGU_Rig:fish_FUGU_Rig
+    400014: fish_FUGU:fish_FUGU_Rig:global_C0_ctl
+    400016: fish_FUGU:fish_FUGU_Rig:head_bone
+    400018: fish_FUGU:fish_FUGU_Rig:head_eff
+    400020: fish_FUGU:fish_FUGU_Rig:head_root
+    400022: fish_FUGU:fish_FUGU_Rig:hip_bone
+    400024: fish_FUGU:fish_FUGU_Rig:hip_eff
+    400026: fish_FUGU:fish_FUGU_Rig:hip_root
+    400028: fish_FUGU:fish_FUGU_Rig:L_eye
+    400030: fish_FUGU:fish_FUGU_Rig:L_eye02_lattice
+    400032: fish_FUGU:fish_FUGU_Rig:L_pectoral_fin_bone
+    400034: fish_FUGU:fish_FUGU_Rig:L_pectoral_fin_eff
+    400036: fish_FUGU:fish_FUGU_Rig:L_pectoral_fin_root
+    400038: fish_FUGU:fish_FUGU_Rig:lower_jaw_bone
+    400040: fish_FUGU:fish_FUGU_Rig:lower_jaw_eff
+    400042: fish_FUGU:fish_FUGU_Rig:lower_jaw_root
+    400044: fish_FUGU:fish_FUGU_Rig:mouth_ctl
+    400046: fish_FUGU:fish_FUGU_Rig:n_eye02_0
+    400048: fish_FUGU:fish_FUGU_Rig:n_L_eye
+    400050: fish_FUGU:fish_FUGU_Rig:n_R_eye
+    400052: fish_FUGU:fish_FUGU_Rig:pelvic_fin_bone
+    400054: fish_FUGU:fish_FUGU_Rig:pelvic_fin_eff
+    400056: fish_FUGU:fish_FUGU_Rig:pelvic_fin_root
+    400058: fish_FUGU:fish_FUGU_Rig:R_eye
+    400060: fish_FUGU:fish_FUGU_Rig:R_eye02_lattice
+    400062: fish_FUGU:fish_FUGU_Rig:R_pectoral_fin_bone
+    400064: fish_FUGU:fish_FUGU_Rig:R_pectoral_fin_eff
+    400066: fish_FUGU:fish_FUGU_Rig:R_pectoral_fin_root
+    400068: fish_FUGU:fish_FUGU_Rig:tail_fin_bone
+    400070: fish_FUGU:fish_FUGU_Rig:tail_fin_eff
+    400072: fish_FUGU:fish_FUGU_Rig:tail_fin_root
+    400074: fish_FUGU:fish_FUGU_Rig:upper_jaw_bone
+    400076: fish_FUGU:fish_FUGU_Rig:upper_jaw_eff
+    400078: fish_FUGU:fish_FUGU_Rig:upper_jaw_root
+    400080: //RootNode
+    2300000: fish_FUGU:fish_FUGU_Rig:L_eye
+    2300002: fish_FUGU:fish_FUGU_Rig:R_eye
+    3300000: fish_FUGU:fish_FUGU_Rig:L_eye
+    3300002: fish_FUGU:fish_FUGU_Rig:R_eye
+    4300000: fish_FUGU:fish_FUGU_Model:body
+    4300002: fish_FUGU:fish_FUGU_Rig:L_eye
+    4300004: fish_FUGU:fish_FUGU_Rig:R_eye
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fish_FUGU:fish_FUGU_Model:body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

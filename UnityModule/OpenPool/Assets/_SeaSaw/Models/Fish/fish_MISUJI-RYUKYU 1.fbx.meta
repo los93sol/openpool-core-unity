@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 7d4792092cb57cb49ba4710928a82550
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: fish_MISUJI_RYUKYU:body_bone
+    100004: fish_MISUJI_RYUKYU:body_eff
+    100006: fish_MISUJI_RYUKYU:body_root
+    100008: fish_MISUJI_RYUKYU:fish_MISUJI_RYUKYU_Model:fish_MISUJI_RYUKYU
+    100010: fish_MISUJI_RYUKYU:fish_MISUJI_RYUKYU_Model:fish_MISUJI_RYUKYU_Model
+    100012: fish_MISUJI_RYUKYU:global_C0_ctl
+    100014: fish_MISUJI_RYUKYU:head_bone
+    100016: fish_MISUJI_RYUKYU:head_eff
+    100018: fish_MISUJI_RYUKYU:head_root
+    100020: fish_MISUJI_RYUKYU:L_eye02_lattice82
+    100022: fish_MISUJI_RYUKYU:L_eye84
+    100024: fish_MISUJI_RYUKYU:L_pectoral_fin_bone
+    100026: fish_MISUJI_RYUKYU:L_pectoral_fin_eff
+    100028: fish_MISUJI_RYUKYU:L_pectoral_fin_root
+    100030: fish_MISUJI_RYUKYU:L_pelvic_fin_bone
+    100032: fish_MISUJI_RYUKYU:L_pelvic_fin_eff
+    100034: fish_MISUJI_RYUKYU:L_pelvic_fin_root
+    100036: fish_MISUJI_RYUKYU:n_eye02_0
+    100038: fish_MISUJI_RYUKYU:n_L_eye84
+    100040: fish_MISUJI_RYUKYU:n_R_eye84
+    100042: fish_MISUJI_RYUKYU:R_eye02_lattice82
+    100044: fish_MISUJI_RYUKYU:R_eye84
+    100046: fish_MISUJI_RYUKYU:R_pectoral_fin_bone
+    100048: fish_MISUJI_RYUKYU:R_pectoral_fin_eff
+    100050: fish_MISUJI_RYUKYU:R_pectoral_fin_root
+    100052: fish_MISUJI_RYUKYU:R_pelvic_fin_bone
+    100054: fish_MISUJI_RYUKYU:R_pelvic_fin_eff
+    100056: fish_MISUJI_RYUKYU:R_pelvic_fin_root
+    100058: fish_MISUJI_RYUKYU:tail_fin_bone
+    100060: fish_MISUJI_RYUKYU:tail_fin_eff
+    100062: fish_MISUJI_RYUKYU:tail_fin_root
+    400000: //RootNode
+    400002: fish_MISUJI_RYUKYU:body_bone
+    400004: fish_MISUJI_RYUKYU:body_eff
+    400006: fish_MISUJI_RYUKYU:body_root
+    400008: fish_MISUJI_RYUKYU:fish_MISUJI_RYUKYU_Model:fish_MISUJI_RYUKYU
+    400010: fish_MISUJI_RYUKYU:fish_MISUJI_RYUKYU_Model:fish_MISUJI_RYUKYU_Model
+    400012: fish_MISUJI_RYUKYU:global_C0_ctl
+    400014: fish_MISUJI_RYUKYU:head_bone
+    400016: fish_MISUJI_RYUKYU:head_eff
+    400018: fish_MISUJI_RYUKYU:head_root
+    400020: fish_MISUJI_RYUKYU:L_eye02_lattice82
+    400022: fish_MISUJI_RYUKYU:L_eye84
+    400024: fish_MISUJI_RYUKYU:L_pectoral_fin_bone
+    400026: fish_MISUJI_RYUKYU:L_pectoral_fin_eff
+    400028: fish_MISUJI_RYUKYU:L_pectoral_fin_root
+    400030: fish_MISUJI_RYUKYU:L_pelvic_fin_bone
+    400032: fish_MISUJI_RYUKYU:L_pelvic_fin_eff
+    400034: fish_MISUJI_RYUKYU:L_pelvic_fin_root
+    400036: fish_MISUJI_RYUKYU:n_eye02_0
+    400038: fish_MISUJI_RYUKYU:n_L_eye84
+    400040: fish_MISUJI_RYUKYU:n_R_eye84
+    400042: fish_MISUJI_RYUKYU:R_eye02_lattice82
+    400044: fish_MISUJI_RYUKYU:R_eye84
+    400046: fish_MISUJI_RYUKYU:R_pectoral_fin_bone
+    400048: fish_MISUJI_RYUKYU:R_pectoral_fin_eff
+    400050: fish_MISUJI_RYUKYU:R_pectoral_fin_root
+    400052: fish_MISUJI_RYUKYU:R_pelvic_fin_bone
+    400054: fish_MISUJI_RYUKYU:R_pelvic_fin_eff
+    400056: fish_MISUJI_RYUKYU:R_pelvic_fin_root
+    400058: fish_MISUJI_RYUKYU:tail_fin_bone
+    400060: fish_MISUJI_RYUKYU:tail_fin_eff
+    400062: fish_MISUJI_RYUKYU:tail_fin_root
+    2300000: fish_MISUJI_RYUKYU:L_eye84
+    2300002: fish_MISUJI_RYUKYU:R_eye84
+    3300000: fish_MISUJI_RYUKYU:L_eye84
+    3300002: fish_MISUJI_RYUKYU:R_eye84
+    4300000: fish_MISUJI_RYUKYU:L_eye84
+    4300002: fish_MISUJI_RYUKYU:R_eye84
+    4300004: fish_MISUJI_RYUKYU:fish_MISUJI_RYUKYU_Model:fish_MISUJI_RYUKYU
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: fish_MISUJI_RYUKYU:fish_MISUJI_RYUKYU_Model:fish_MISUJI_RYUKYU
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
