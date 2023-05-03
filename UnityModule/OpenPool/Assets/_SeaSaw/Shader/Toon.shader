@@ -27,7 +27,7 @@
 			half3 ramp = tex2D (_Ramp, float2(d,d)).rgb;
 			
 			half4 c;
-			c.rgb = s.Albedo * ramp * _LightColor0.rgb * (atten * 2); // Dont use light color
+			c.rgb = s.Albedo * ramp * _LightColor0.rgb * (atten); // Dont use light color
 //			c.rgb = s.Albedo * ramp * (atten * 2);
 			c.a = 0;
 			return c;
