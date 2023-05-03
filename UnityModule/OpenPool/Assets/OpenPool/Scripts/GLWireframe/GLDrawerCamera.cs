@@ -41,7 +41,7 @@ public class GLDrawerCamera : MonoBehaviour {
 	void Start ()
 	{
 		QualitySettings.antiAliasing = antiAliasing;
-		_camera = this.camera;
+		_camera = this.GetComponent<Camera>();
 	}
 
 	void OnPreRender ()

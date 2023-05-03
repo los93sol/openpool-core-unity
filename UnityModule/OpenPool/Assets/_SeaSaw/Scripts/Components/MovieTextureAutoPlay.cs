@@ -4,7 +4,7 @@ using System.Collections;
 public class MovieTextureAutoPlay : MonoBehaviour {
 		
 	void Start() {
-		Material mat = renderer.material;
+		Material mat = GetComponent<Renderer>().material;
 		Texture texture = mat.mainTexture;
 		MovieTexture movie = texture as MovieTexture;
 		

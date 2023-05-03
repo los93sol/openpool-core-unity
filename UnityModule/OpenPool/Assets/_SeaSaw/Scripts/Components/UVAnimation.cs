@@ -28,7 +28,7 @@ public class UVAnimation : MonoBehaviour {
 			textureName = "_MainTex";
 		}
 		if(animationRenderer == null) {
-			animationRenderer = renderer;
+			animationRenderer = GetComponent<Renderer>();
 		}
 		else if(animationRenderer == null) {
 			animationRenderer = GetComponent<MeshRenderer>();

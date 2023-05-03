@@ -33,7 +33,7 @@ public class MouseDraggable : MonoBehaviour {
 		diff.y = 0;
 		
 		Vector3 point = transform.position + hitPoint;
-		rigidbody.AddForceAtPosition(diff * gain, point, ForceMode.Force);
+		GetComponent<Rigidbody>().AddForceAtPosition(diff * gain, point, ForceMode.Force);
 	}
 }
 }
