@@ -3,11 +3,11 @@ openpool-core-unity
 
 The original repo never had the meta files for the Unity project so I started working through the process of reconciling the broken project references.
 
-This repo is a work in progress.  As it stands I have the scene mostly working again, but there are some references I have not yet determined.  Below is the list of GUIDs that I have mapped after the initial import into Unity 4.5.
+This repo is a work in progress.  
+
+As it stands I have the scene mostly working again, but there are some references I have not yet determined.  The Unity projects have been updated to Unity 5 which is still available on Unity's site.
 
 The following are references that are still known to be broken  
-- 0000000000000000f000000000000000 (2100000 (21 - Material) - OpenPool\Assets\OpenPool\Resources\Models\Balls\Materials\billiard_ballMat.mat)
-- 0000000000000000e000000000000000 (13200000 (132 - GUIText) - OpenPool\Assets\OpenPool\Resources\Prefabs\OpenPoolManager.prefab)
 - f445281fde84b4e51b2b78b161c9f109 (21200000 (212 - SpriteRenderer) - OpenPool\Assets\OpenPool\Resources\Prefabs\OpenPoolManager.prefab)
 - 277cde6ef24dd482da4f36fa24753b41 (3300002 (33 - MeshFilter) - OpenPool\Assets\OpenPool\Resources\Prefabs\EditorOnly.prefab)
 - 8d1f65edff2cb46fc9293fd7791acca3 (2100000 (21 - Material) - OpenPool\Assets\_SeaSaw\Models\Charactor\Materials\eye02_type1.mat)
