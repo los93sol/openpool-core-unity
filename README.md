@@ -5,7 +5,7 @@ The original repo never had the meta files for the Unity project so I started wo
 
 This repo is a work in progress.  
 
-As it stands I have the scene mostly working again, but there are some references I have not yet determined.  The Unity projects have been updated to Unity 5 which is still available on Unity's site.
+As it stands I have the scene mostly working again, but there are some references I have not yet determined.  The Unity projects have been updated to Unity 2017.1.0f3 which is still available on Unity's site.
 
 The following are references that are still known to be broken  
 - f445281fde84b4e51b2b78b161c9f109 (21200000 (212 - SpriteRenderer) - OpenPool\Assets\OpenPool\Resources\Prefabs\OpenPoolManager.prefab)
