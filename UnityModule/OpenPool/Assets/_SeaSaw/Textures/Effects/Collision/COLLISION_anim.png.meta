@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 4e14ea0ea056f47f7994a05273c9b52f
-timeCreated: 1683142333
+timeCreated: 1683208287
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -37,52 +37,70 @@ TextureImporter:
     21300060: COLLISION_anim_00031.png
     21300062: COLLISION_anim_00032.png
     21300064: COLLISION_anim_00033.png
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
+    serializedVersion: 2
     filterMode: -1
     aniso: 1
     mipBias: -1
-    wrapMode: 1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: COLLISION_anim_00001.png
+    - serializedVersion: 2
+      name: COLLISION_anim_00001.png
       rect:
         serializedVersion: 2
         x: 0
@@ -90,9 +108,13 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00002.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00002.png
       rect:
         serializedVersion: 2
         x: 0
@@ -100,9 +122,13 @@ TextureImporter:
         width: 338
         height: 340
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00003.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00003.png
       rect:
         serializedVersion: 2
         x: 0
@@ -110,9 +136,13 @@ TextureImporter:
         width: 340
         height: 340
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00004.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00004.png
       rect:
         serializedVersion: 2
         x: 0
@@ -120,9 +150,13 @@ TextureImporter:
         width: 338
         height: 340
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00005.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00005.png
       rect:
         serializedVersion: 2
         x: 0
@@ -130,9 +164,13 @@ TextureImporter:
         width: 340
         height: 338
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00006.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00006.png
       rect:
         serializedVersion: 2
         x: 991
@@ -140,9 +178,13 @@ TextureImporter:
         width: 318
         height: 318
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00007.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00007.png
       rect:
         serializedVersion: 2
         x: 989
@@ -150,9 +192,13 @@ TextureImporter:
         width: 322
         height: 322
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00008.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00008.png
       rect:
         serializedVersion: 2
         x: 665
@@ -160,9 +206,13 @@ TextureImporter:
         width: 324
         height: 324
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00009.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00009.png
       rect:
         serializedVersion: 2
         x: 665
@@ -170,9 +220,13 @@ TextureImporter:
         width: 325
         height: 325
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00010.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00010.png
       rect:
         serializedVersion: 2
         x: 340
@@ -180,9 +234,13 @@ TextureImporter:
         width: 326
         height: 326
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00011.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00011.png
       rect:
         serializedVersion: 2
         x: 340
@@ -190,9 +248,13 @@ TextureImporter:
         width: 325
         height: 325
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00012.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00012.png
       rect:
         serializedVersion: 2
         x: 666
@@ -200,9 +262,13 @@ TextureImporter:
         width: 324
         height: 325
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00013.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00013.png
       rect:
         serializedVersion: 2
         x: 667
@@ -210,9 +276,13 @@ TextureImporter:
         width: 324
         height: 323
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00014.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00014.png
       rect:
         serializedVersion: 2
         x: 1616
@@ -220,9 +290,13 @@ TextureImporter:
         width: 296
         height: 311
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00015.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00015.png
       rect:
         serializedVersion: 2
         x: 1314
@@ -230,9 +304,13 @@ TextureImporter:
         width: 302
         height: 314
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00016.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00016.png
       rect:
         serializedVersion: 2
         x: 1312
@@ -240,9 +318,13 @@ TextureImporter:
         width: 310
         height: 316
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00017.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00017.png
       rect:
         serializedVersion: 2
         x: 1311
@@ -250,9 +332,13 @@ TextureImporter:
         width: 313
         height: 316
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00018.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00018.png
       rect:
         serializedVersion: 2
         x: 1309
@@ -260,9 +346,13 @@ TextureImporter:
         width: 314
         height: 316
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00019.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00019.png
       rect:
         serializedVersion: 2
         x: 1311
@@ -270,9 +360,13 @@ TextureImporter:
         width: 310
         height: 317
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00020.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00020.png
       rect:
         serializedVersion: 2
         x: 1309
@@ -280,9 +374,13 @@ TextureImporter:
         width: 314
         height: 320
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00021.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00021.png
       rect:
         serializedVersion: 2
         x: 997
@@ -290,9 +388,13 @@ TextureImporter:
         width: 317
         height: 323
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00022.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00022.png
       rect:
         serializedVersion: 2
         x: 990
@@ -300,9 +402,13 @@ TextureImporter:
         width: 319
         height: 325
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00023.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00023.png
       rect:
         serializedVersion: 2
         x: 990
@@ -310,9 +416,13 @@ TextureImporter:
         width: 321
         height: 327
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00024.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00024.png
       rect:
         serializedVersion: 2
         x: 990
@@ -320,9 +430,13 @@ TextureImporter:
         width: 322
         height: 328
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00025.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00025.png
       rect:
         serializedVersion: 2
         x: 673
@@ -330,9 +444,13 @@ TextureImporter:
         width: 324
         height: 329
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00026.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00026.png
       rect:
         serializedVersion: 2
         x: 665
@@ -340,9 +458,13 @@ TextureImporter:
         width: 325
         height: 330
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00027.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00027.png
       rect:
         serializedVersion: 2
         x: 340
@@ -350,9 +472,13 @@ TextureImporter:
         width: 325
         height: 331
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00028.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00028.png
       rect:
         serializedVersion: 2
         x: 340
@@ -360,9 +486,13 @@ TextureImporter:
         width: 325
         height: 331
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00029.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00029.png
       rect:
         serializedVersion: 2
         x: 338
@@ -370,9 +500,13 @@ TextureImporter:
         width: 335
         height: 331
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00030.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00030.png
       rect:
         serializedVersion: 2
         x: 338
@@ -380,9 +514,13 @@ TextureImporter:
         width: 329
         height: 295
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00031.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00031.png
       rect:
         serializedVersion: 2
         x: 0
@@ -390,9 +528,13 @@ TextureImporter:
         width: 340
         height: 296
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00032.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00032.png
       rect:
         serializedVersion: 2
         x: 1621
@@ -400,9 +542,13 @@ TextureImporter:
         width: 211
         height: 232
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: COLLISION_anim_00033.png
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: COLLISION_anim_00033.png
       rect:
         serializedVersion: 2
         x: 1622
@@ -410,8 +556,13 @@ TextureImporter:
         width: 210
         height: 236
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+    outline: []
+    physicsShape: []
   spritePackingTag: 
   userData: 
   assetBundleName: 

@@ -107,7 +107,7 @@ public class SteerForNavmesh : Steering {
 	
 	protected override void Start() {
 		base.Start();
-		_navMeshLayerMask = 1 << NavMesh.GetNavMeshLayerFromName("Default");
+		_navMeshLayerMask = 1 << UnityEngine.AI.NavMesh.GetNavMeshLayerFromName("Default");
 	}
 	
 	
@@ -129,7 +129,7 @@ public class SteerForNavmesh : Steering {
 	/// </remarks>
 	protected override Vector3 CalculateForce()
 	{
-		NavMeshHit hit;
+		UnityEngine.AI.NavMeshHit hit;
 		
 		/*
 		 * While we could just calculate line as (Velocity * predictionTime) 
@@ -146,14 +146,14 @@ public class SteerForNavmesh : Steering {
 		if (_offMeshCheckingEnabled) {
 			Vector3 probePosition = Vehicle.Position + _probePositionOffset;
 			
-			Profiler.BeginSample("Off-mesh checking");
-			NavMesh.SamplePosition(probePosition, out hit, _probeRadius, _navMeshLayerMask);
-			Profiler.EndSample();
+			UnityEngine.Profiling.Profiler.BeginSample("Off-mesh checking");
+			UnityEngine.AI.NavMesh.SamplePosition(probePosition, out hit, _probeRadius, _navMeshLayerMask);
+			UnityEngine.Profiling.Profiler.EndSample();
 			
 			if (!hit.hit) {		// we're not on the navmesh
-				Profiler.BeginSample("Find closest edge");
-				NavMesh.FindClosestEdge(probePosition, out hit, _navMeshLayerMask);
-				Profiler.EndSample();
+				UnityEngine.Profiling.Profiler.BeginSample("Find closest edge");
+				UnityEngine.AI.NavMesh.FindClosestEdge(probePosition, out hit, _navMeshLayerMask);
+				UnityEngine.Profiling.Profiler.EndSample();
 				
 				if (hit.hit) {		// closest edge found
 					#if ANNOTATE_NAVMESH
@@ -172,15 +172,15 @@ public class SteerForNavmesh : Steering {
 		}
 		
 		
-		Profiler.BeginSample("NavMesh raycast");
-		NavMesh.Raycast(Vehicle.Position, futurePosition, out hit, _navMeshLayerMask);
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.BeginSample("NavMesh raycast");
+		UnityEngine.AI.NavMesh.Raycast(Vehicle.Position, futurePosition, out hit, _navMeshLayerMask);
+		UnityEngine.Profiling.Profiler.EndSample();
 		
 		if (!hit.hit)
 			return Vector3.zero;
 		
 		Vector3 avoidance = Vector3.zero;
-		Profiler.BeginSample("Calculate NavMesh avoidance");
+		UnityEngine.Profiling.Profiler.BeginSample("Calculate NavMesh avoidance");
 		Vector3 moveDirection = Vehicle.Velocity.normalized;
 		avoidance =	 OpenSteerUtility.perpendicularComponent(hit.normal, moveDirection);
 
@@ -196,7 +196,7 @@ public class SteerForNavmesh : Steering {
 		Debug.DrawLine(Vehicle.Position, Vehicle.Position + avoidance, Color.yellow);
 		#endif
 
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 		
 		return avoidance;
 	}	

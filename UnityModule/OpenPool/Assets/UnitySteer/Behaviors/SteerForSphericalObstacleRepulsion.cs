@@ -119,7 +119,7 @@ public class SteerForSphericalObstacleRepulsion : Steering
 		
 		// test all obstacles for intersection with my forward axis,
 		// select the one whose point of intersection is nearest
-		Profiler.BeginSample("Accumulate spherical obstacle influences");
+		UnityEngine.Profiling.Profiler.BeginSample("Accumulate spherical obstacle influences");
 		for (int i = 0; i < Vehicle.Radar.Obstacles.Count; i++)
 		{
 			var sphere = Vehicle.Radar.Obstacles[i];
@@ -137,7 +137,7 @@ public class SteerForSphericalObstacleRepulsion : Steering
 			var distanceFuture = futurePosition - sphere.Position;
 			avoidance += avoidanceMultiplier * distanceCurrent / distanceFuture.sqrMagnitude;
 		}
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 
 		avoidance /= Vehicle.Radar.Obstacles.Count;
 

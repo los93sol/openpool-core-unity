@@ -124,7 +124,7 @@ public class SteerForSphericalObstacleAvoidance : Steering
 		
 		// test all obstacles for intersection with my forward axis,
 		// select the one whose point of intersection is nearest
-		Profiler.BeginSample("Find nearest intersection");
+		UnityEngine.Profiling.Profiler.BeginSample("Find nearest intersection");
 		foreach (var o in Vehicle.Radar.Obstacles)
 		{
 			var sphere = o as DetectableObject;
@@ -136,11 +136,11 @@ public class SteerForSphericalObstacleAvoidance : Steering
 				nearest = next;
 			}
 		}
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 
 
 		// when a nearest intersection was found
-		Profiler.BeginSample("Calculate avoidance");
+		UnityEngine.Profiling.Profiler.BeginSample("Calculate avoidance");
 		if (nearest.Intersect &&
 			nearest.Distance < movement.magnitude)
 		{
@@ -167,7 +167,7 @@ public class SteerForSphericalObstacleAvoidance : Steering
 			Debug.DrawLine(Vehicle.Position, Vehicle.Position + avoidance, Color.yellow);
 			#endif
 		}
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 
 		return avoidance;
 	}

@@ -214,7 +214,7 @@ public class Radar: MonoBehaviour {
 	
 	public void OnUpdateRadar(object obj)
 	{
-        Profiler.BeginSample("OnUpdateRadar");
+        UnityEngine.Profiling.Profiler.BeginSample("OnUpdateRadar");
 		_detectedColliders = Detect();
 		FilterDetected();
 		if (OnDetected != null)
@@ -243,7 +243,7 @@ public class Radar: MonoBehaviour {
 			Debug.Log(sb.ToString());
 		}
 #endif
-        Profiler.EndSample();
+        UnityEngine.Profiling.Profiler.EndSample();
 	}
 		
 	
@@ -266,7 +266,7 @@ public class Radar: MonoBehaviour {
 		 * took about 75% of the time used for the frame.
          * 
 		 */
-		Profiler.BeginSample("Base FilterDetected");
+		UnityEngine.Profiling.Profiler.BeginSample("Base FilterDetected");
 
         _vehicles.Clear();
         _obstacles.Clear();
@@ -295,7 +295,7 @@ public class Radar: MonoBehaviour {
                 _obstacles.Add(d);
             }
         }
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 	
 	/// <summary>

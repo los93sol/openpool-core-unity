@@ -151,18 +151,18 @@ public abstract class TickedVehicle : Vehicle
 		{
 			return;
 		}
-		Profiler.BeginSample("Calculating vehicle forces");
+		UnityEngine.Profiling.Profiler.BeginSample("Calculating vehicle forces");
 		
 		var force = Vector3.zero;
 		
-		Profiler.BeginSample("Adding up basic steerings");
+		UnityEngine.Profiling.Profiler.BeginSample("Adding up basic steerings");
         for(int i = 0; i < Steerings.Length; i++) {
             var s = Steerings[i];
             if (s.enabled) {
                 force += s.WeighedForce;
             }
         }
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 		
 		var elapsedTime = Time.time - LastTickTime;
 		LastTickTime = Time.time;
@@ -217,14 +217,14 @@ public abstract class TickedVehicle : Vehicle
 		// but things are working just fine for now, and it seems like
 		// overkill. 
 		Vector3 adjustedVelocity = Vector3.zero;
-		Profiler.BeginSample("Adding up post-processing steerings");
+		UnityEngine.Profiling.Profiler.BeginSample("Adding up post-processing steerings");
         for (int i = 0; i < SteeringPostprocessors.Length; i++) {
             var s = SteeringPostprocessors[i];
             if (s.enabled) {
 			    adjustedVelocity += s.WeighedForce;
             }
 		}
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 		if (adjustedVelocity != Vector3.zero)
 		{
 			adjustedVelocity = Vector3.ClampMagnitude(adjustedVelocity, MaxSpeed);
@@ -235,7 +235,7 @@ public abstract class TickedVehicle : Vehicle
 		
 		// Update vehicle velocity
 		UpdateOrientationVelocity(newVelocity);
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 	}
 
 
@@ -248,10 +248,10 @@ public abstract class TickedVehicle : Vehicle
 	void ApplySteeringForce(float elapsedTime)
 	{
 		// Euler integrate (per frame) velocity into position
-        Profiler.BeginSample("ApplySteeringForce.CalculatePositionDelta");
+        UnityEngine.Profiling.Profiler.BeginSample("ApplySteeringForce.CalculatePositionDelta");
 		var delta = CalculatePositionDelta(elapsedTime);
-        Profiler.EndSample();
-        Profiler.BeginSample("ApplySteeringForce.Displace");
+        UnityEngine.Profiling.Profiler.EndSample();
+        UnityEngine.Profiling.Profiler.BeginSample("ApplySteeringForce.Displace");
 		if (CharacterController != null) 
 		{
 			CharacterController.Move(delta);
@@ -264,7 +264,7 @@ public abstract class TickedVehicle : Vehicle
 		{
 			Rigidbody.MovePosition (Rigidbody.position + delta);
 		}
-        Profiler.EndSample();
+        UnityEngine.Profiling.Profiler.EndSample();
 	}	
 	
 	
@@ -274,7 +274,7 @@ public abstract class TickedVehicle : Vehicle
 	/// </summary>
 	protected virtual void AdjustOrientation(float deltaTime)
 	{
-        Profiler.BeginSample("AdustOrientation");
+        UnityEngine.Profiling.Profiler.BeginSample("AdustOrientation");
 		/* 
 		 * Avoid adjusting if we aren't applying any velocity. We also
 		 * disregard very small velocities, to avoid jittery movement on
@@ -295,7 +295,7 @@ public abstract class TickedVehicle : Vehicle
 			}
 			Transform.forward = newForward;
 		}
-        Profiler.EndSample();
+        UnityEngine.Profiling.Profiler.EndSample();
 	}	
 
 	/// <summary>

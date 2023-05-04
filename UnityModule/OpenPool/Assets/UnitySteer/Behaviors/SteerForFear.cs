@@ -66,7 +66,7 @@ public class SteerForFear : Steering
 	
 	protected override Vector3 CalculateForce()
 	{
-		Profiler.BeginSample("Accumulating repulsion");
+		UnityEngine.Profiling.Profiler.BeginSample("Accumulating repulsion");
 		Vector3 accumulator = Vector3.zero;
 		int totalCount = 0;
 		var now = Time.time;
@@ -96,7 +96,7 @@ public class SteerForFear : Steering
 		Debug.DrawLine(position, futurePosition, Color.blue);
 		Debug.DrawLine(position + accumulator, futurePosition, Color.magenta);
 		#endif
-		Profiler.EndSample();
+		UnityEngine.Profiling.Profiler.EndSample();
 
 		return accumulator;
 	}
