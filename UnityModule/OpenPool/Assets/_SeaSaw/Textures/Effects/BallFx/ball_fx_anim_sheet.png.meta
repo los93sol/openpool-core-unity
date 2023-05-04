@@ -1,64 +1,137 @@
 fileFormatVersion: 2
 guid: 898fb2e6ca74c4ffeaddc680c3883419
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: ball_fx_anim_sheet_0
-    21300002: ball_fx_anim_sheet_1
-    21300004: ball_fx_anim_sheet_2
-    21300006: ball_fx_anim_sheet_3
-    21300008: ball_fx_anim_sheet_4
-    21300010: ball_fx_anim_sheet_5
-    21300012: ball_fx_anim_sheet_6
-    21300014: ball_fx_anim_sheet_7
-    21300016: ball_fx_anim_sheet_8
-    21300018: ball_fx_anim_sheet_9
-    21300020: ball_fx_anim_sheet_10
-    21300022: ball_fx_anim_sheet_11
-    21300024: ball_fx_anim_sheet_12
-    21300026: ball_fx_anim_sheet_13
-    21300028: ball_fx_anim_sheet_14
-    21300030: ball_fx_anim_sheet_15
-    21300032: ball_fx_anim_sheet_16
-    21300034: ball_fx_anim_sheet_17
-    21300036: ball_fx_anim_sheet_18
-    21300038: ball_fx_anim_sheet_19
-    21300040: ball_fx_anim_sheet_20
-    21300042: ball_fx_anim_sheet_21
-    21300044: ball_fx_anim_sheet_22
-    21300046: ball_fx_anim_sheet_23
-    21300048: ball_fx_anim_sheet_24
-    21300050: ball_fx_anim_sheet_25
-    21300052: ball_fx_anim_sheet_26
-    21300054: ball_fx_anim_sheet_27
-    21300056: ball_fx_anim_sheet_28
-    21300058: ball_fx_anim_sheet_29
-    21300060: ball_fx_anim_sheet_30
-  serializedVersion: 2
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ball_fx_anim_sheet_0
+  - first:
+      213: 21300002
+    second: ball_fx_anim_sheet_1
+  - first:
+      213: 21300004
+    second: ball_fx_anim_sheet_2
+  - first:
+      213: 21300006
+    second: ball_fx_anim_sheet_3
+  - first:
+      213: 21300008
+    second: ball_fx_anim_sheet_4
+  - first:
+      213: 21300010
+    second: ball_fx_anim_sheet_5
+  - first:
+      213: 21300012
+    second: ball_fx_anim_sheet_6
+  - first:
+      213: 21300014
+    second: ball_fx_anim_sheet_7
+  - first:
+      213: 21300016
+    second: ball_fx_anim_sheet_8
+  - first:
+      213: 21300018
+    second: ball_fx_anim_sheet_9
+  - first:
+      213: 21300020
+    second: ball_fx_anim_sheet_10
+  - first:
+      213: 21300022
+    second: ball_fx_anim_sheet_11
+  - first:
+      213: 21300024
+    second: ball_fx_anim_sheet_12
+  - first:
+      213: 21300026
+    second: ball_fx_anim_sheet_13
+  - first:
+      213: 21300028
+    second: ball_fx_anim_sheet_14
+  - first:
+      213: 21300030
+    second: ball_fx_anim_sheet_15
+  - first:
+      213: 21300032
+    second: ball_fx_anim_sheet_16
+  - first:
+      213: 21300034
+    second: ball_fx_anim_sheet_17
+  - first:
+      213: 21300036
+    second: ball_fx_anim_sheet_18
+  - first:
+      213: 21300038
+    second: ball_fx_anim_sheet_19
+  - first:
+      213: 21300040
+    second: ball_fx_anim_sheet_20
+  - first:
+      213: 21300042
+    second: ball_fx_anim_sheet_21
+  - first:
+      213: 21300044
+    second: ball_fx_anim_sheet_22
+  - first:
+      213: 21300046
+    second: ball_fx_anim_sheet_23
+  - first:
+      213: 21300048
+    second: ball_fx_anim_sheet_24
+  - first:
+      213: 21300050
+    second: ball_fx_anim_sheet_25
+  - first:
+      213: 21300052
+    second: ball_fx_anim_sheet_26
+  - first:
+      213: 21300054
+    second: ball_fx_anim_sheet_27
+  - first:
+      213: 21300056
+    second: ball_fx_anim_sheet_28
+  - first:
+      213: 21300058
+    second: ball_fx_anim_sheet_29
+  - first:
+      213: 21300060
+    second: ball_fx_anim_sheet_30
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    serializedVersion: 2
+    filterMode: 1
     aniso: 1
-    mipBias: -1
-    wrapMode: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -66,15 +139,66 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: ball_fx_anim_sheet_0
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -84,7 +208,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_1
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_1
       rect:
         serializedVersion: 2
         x: 500
@@ -94,7 +229,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_2
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -104,7 +250,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_3
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_3
       rect:
         serializedVersion: 2
         x: 1500
@@ -114,7 +271,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_4
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_4
       rect:
         serializedVersion: 2
         x: 2000
@@ -124,7 +292,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_5
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_5
       rect:
         serializedVersion: 2
         x: 2500
@@ -134,7 +313,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_6
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_6
       rect:
         serializedVersion: 2
         x: 0
@@ -144,7 +334,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_7
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_7
       rect:
         serializedVersion: 2
         x: 500
@@ -154,7 +355,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_8
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_8
       rect:
         serializedVersion: 2
         x: 1000
@@ -164,7 +376,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_9
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_9
       rect:
         serializedVersion: 2
         x: 1500
@@ -174,7 +397,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_10
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_10
       rect:
         serializedVersion: 2
         x: 2000
@@ -184,7 +418,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_11
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_11
       rect:
         serializedVersion: 2
         x: 2500
@@ -194,7 +439,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_12
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_12
       rect:
         serializedVersion: 2
         x: 0
@@ -204,7 +460,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_13
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_13
       rect:
         serializedVersion: 2
         x: 500
@@ -214,7 +481,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_14
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_14
       rect:
         serializedVersion: 2
         x: 1000
@@ -224,7 +502,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_15
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_15
       rect:
         serializedVersion: 2
         x: 1500
@@ -234,7 +523,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_16
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_16
       rect:
         serializedVersion: 2
         x: 2000
@@ -244,7 +544,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_17
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_17
       rect:
         serializedVersion: 2
         x: 2500
@@ -254,7 +565,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_18
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_18
       rect:
         serializedVersion: 2
         x: 0
@@ -264,7 +586,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_19
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_19
       rect:
         serializedVersion: 2
         x: 500
@@ -274,7 +607,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_21
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_21
       rect:
         serializedVersion: 2
         x: 1000
@@ -284,7 +628,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_22
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_22
       rect:
         serializedVersion: 2
         x: 1500
@@ -294,7 +649,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_23
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_23
       rect:
         serializedVersion: 2
         x: 2000
@@ -304,7 +670,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_24
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_24
       rect:
         serializedVersion: 2
         x: 2500
@@ -314,7 +691,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_25
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_25
       rect:
         serializedVersion: 2
         x: 0
@@ -324,7 +712,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_26
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_26
       rect:
         serializedVersion: 2
         x: 500
@@ -334,7 +733,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_27
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_27
       rect:
         serializedVersion: 2
         x: 1000
@@ -344,7 +754,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_28
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_28
       rect:
         serializedVersion: 2
         x: 1500
@@ -354,7 +775,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_29
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_29
       rect:
         serializedVersion: 2
         x: 2000
@@ -364,7 +796,18 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: ball_fx_anim_sheet_30
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ball_fx_anim_sheet_30
       rect:
         serializedVersion: 2
         x: 2500
@@ -374,5 +817,60 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ball_fx_anim_sheet_0: 21300000
+      ball_fx_anim_sheet_1: 21300002
+      ball_fx_anim_sheet_10: 21300020
+      ball_fx_anim_sheet_11: 21300022
+      ball_fx_anim_sheet_12: 21300024
+      ball_fx_anim_sheet_13: 21300026
+      ball_fx_anim_sheet_14: 21300028
+      ball_fx_anim_sheet_15: 21300030
+      ball_fx_anim_sheet_16: 21300032
+      ball_fx_anim_sheet_17: 21300034
+      ball_fx_anim_sheet_18: 21300036
+      ball_fx_anim_sheet_19: 21300038
+      ball_fx_anim_sheet_2: 21300004
+      ball_fx_anim_sheet_21: 21300042
+      ball_fx_anim_sheet_22: 21300044
+      ball_fx_anim_sheet_23: 21300046
+      ball_fx_anim_sheet_24: 21300048
+      ball_fx_anim_sheet_25: 21300050
+      ball_fx_anim_sheet_26: 21300052
+      ball_fx_anim_sheet_27: 21300054
+      ball_fx_anim_sheet_28: 21300056
+      ball_fx_anim_sheet_29: 21300058
+      ball_fx_anim_sheet_3: 21300006
+      ball_fx_anim_sheet_30: 21300060
+      ball_fx_anim_sheet_4: 21300008
+      ball_fx_anim_sheet_5: 21300010
+      ball_fx_anim_sheet_6: 21300012
+      ball_fx_anim_sheet_7: 21300014
+      ball_fx_anim_sheet_8: 21300016
+      ball_fx_anim_sheet_9: 21300018
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

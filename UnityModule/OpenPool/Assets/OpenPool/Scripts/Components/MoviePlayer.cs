@@ -8,13 +8,13 @@ public class MoviePlayer : MonoBehaviour {
 	[SerializeField]
 	Material mat;
 	
-	MovieTexture movieTexture;
+	//MovieTexture movieTexture;
 	
 	// Use this for initialization
 	void Start () {
-		movieTexture = mat.mainTexture as MovieTexture;
-		movieTexture.loop = true;
-		movieTexture.Play();
+		//movieTexture = mat.mainTexture as MovieTexture;
+		//movieTexture.loop = true;
+		//movieTexture.Play();
 	}
 }
 }

@@ -1,12 +1,13 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Text;
+using UnityEngine.UI;
 
 namespace Debugger {
 	/// <summary>
 	/// Global GUI Logger.
 	/// </summary>
-	[RequireComponent(typeof(GUIText))]
+	[RequireComponent(typeof(Text))]
 	[AddComponentMenu("Debugger/GlobalLogger")]
 	public class GlobalLogger : MonoBehaviour {
 		
@@ -16,12 +17,12 @@ namespace Debugger {
 		[SerializeField]
 		bool showStackTrace = false;
 		
-		GUIText gui;
+		Text gui;
 		Queue<string> logQueue;
 		StringBuilder stringBuilder;
 		
 		void OnEnable() {
-			gui = GetComponent<GUIText>();
+			gui = GetComponent<Text>();
 			logQueue = new Queue<string>();
 			stringBuilder = new StringBuilder();
 			// 

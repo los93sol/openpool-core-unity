@@ -1,43 +1,108 @@
 fileFormatVersion: 2
 guid: 4e14ea0ea056f47f7994a05273c9b52f
-timeCreated: 1683208287
-licenseType: Free
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: COLLISION_anim_00001.png
-    21300002: COLLISION_anim_00002.png
-    21300004: COLLISION_anim_00003.png
-    21300006: COLLISION_anim_00004.png
-    21300008: COLLISION_anim_00005.png
-    21300010: COLLISION_anim_00006.png
-    21300012: COLLISION_anim_00007.png
-    21300014: COLLISION_anim_00008.png
-    21300016: COLLISION_anim_00009.png
-    21300018: COLLISION_anim_00010.png
-    21300020: COLLISION_anim_00011.png
-    21300022: COLLISION_anim_00012.png
-    21300024: COLLISION_anim_00013.png
-    21300026: COLLISION_anim_00014.png
-    21300028: COLLISION_anim_00015.png
-    21300030: COLLISION_anim_00016.png
-    21300032: COLLISION_anim_00017.png
-    21300034: COLLISION_anim_00018.png
-    21300036: COLLISION_anim_00019.png
-    21300038: COLLISION_anim_00020.png
-    21300040: COLLISION_anim_00021.png
-    21300042: COLLISION_anim_00022.png
-    21300044: COLLISION_anim_00023.png
-    21300046: COLLISION_anim_00024.png
-    21300048: COLLISION_anim_00025.png
-    21300050: COLLISION_anim_00026.png
-    21300052: COLLISION_anim_00027.png
-    21300054: COLLISION_anim_00028.png
-    21300056: COLLISION_anim_00029.png
-    21300058: COLLISION_anim_00030.png
-    21300060: COLLISION_anim_00031.png
-    21300062: COLLISION_anim_00032.png
-    21300064: COLLISION_anim_00033.png
-  serializedVersion: 4
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: COLLISION_anim_00001.png
+  - first:
+      213: 21300002
+    second: COLLISION_anim_00002.png
+  - first:
+      213: 21300004
+    second: COLLISION_anim_00003.png
+  - first:
+      213: 21300006
+    second: COLLISION_anim_00004.png
+  - first:
+      213: 21300008
+    second: COLLISION_anim_00005.png
+  - first:
+      213: 21300010
+    second: COLLISION_anim_00006.png
+  - first:
+      213: 21300012
+    second: COLLISION_anim_00007.png
+  - first:
+      213: 21300014
+    second: COLLISION_anim_00008.png
+  - first:
+      213: 21300016
+    second: COLLISION_anim_00009.png
+  - first:
+      213: 21300018
+    second: COLLISION_anim_00010.png
+  - first:
+      213: 21300020
+    second: COLLISION_anim_00011.png
+  - first:
+      213: 21300022
+    second: COLLISION_anim_00012.png
+  - first:
+      213: 21300024
+    second: COLLISION_anim_00013.png
+  - first:
+      213: 21300026
+    second: COLLISION_anim_00014.png
+  - first:
+      213: 21300028
+    second: COLLISION_anim_00015.png
+  - first:
+      213: 21300030
+    second: COLLISION_anim_00016.png
+  - first:
+      213: 21300032
+    second: COLLISION_anim_00017.png
+  - first:
+      213: 21300034
+    second: COLLISION_anim_00018.png
+  - first:
+      213: 21300036
+    second: COLLISION_anim_00019.png
+  - first:
+      213: 21300038
+    second: COLLISION_anim_00020.png
+  - first:
+      213: 21300040
+    second: COLLISION_anim_00021.png
+  - first:
+      213: 21300042
+    second: COLLISION_anim_00022.png
+  - first:
+      213: 21300044
+    second: COLLISION_anim_00023.png
+  - first:
+      213: 21300046
+    second: COLLISION_anim_00024.png
+  - first:
+      213: 21300048
+    second: COLLISION_anim_00025.png
+  - first:
+      213: 21300050
+    second: COLLISION_anim_00026.png
+  - first:
+      213: 21300052
+    second: COLLISION_anim_00027.png
+  - first:
+      213: 21300054
+    second: COLLISION_anim_00028.png
+  - first:
+      213: 21300056
+    second: COLLISION_anim_00029.png
+  - first:
+      213: 21300058
+    second: COLLISION_anim_00030.png
+  - first:
+      213: 21300060
+    second: COLLISION_anim_00031.png
+  - first:
+      213: 21300062
+    second: COLLISION_anim_00032.png
+  - first:
+      213: 21300064
+    second: COLLISION_anim_00033.png
+  externalObjects: {}
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -55,6 +120,10 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -63,9 +132,9 @@ TextureImporter:
   maxTextureSize: 1024
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 1
     aniso: 1
-    mipBias: -1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -77,25 +146,60 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
   platformSettings:
-  - buildTarget: DefaultTexturePlatform
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,6 +217,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00002.png
       rect:
@@ -127,6 +238,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00003.png
       rect:
@@ -141,6 +259,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00004.png
       rect:
@@ -155,6 +280,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00005.png
       rect:
@@ -169,6 +301,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00006.png
       rect:
@@ -183,6 +322,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00007.png
       rect:
@@ -197,6 +343,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00008.png
       rect:
@@ -211,6 +364,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00009.png
       rect:
@@ -225,6 +385,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00010.png
       rect:
@@ -239,6 +406,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00011.png
       rect:
@@ -253,6 +427,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00012.png
       rect:
@@ -267,6 +448,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00013.png
       rect:
@@ -281,6 +469,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00014.png
       rect:
@@ -295,6 +490,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00015.png
       rect:
@@ -309,6 +511,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00016.png
       rect:
@@ -323,6 +532,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00017.png
       rect:
@@ -337,6 +553,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00018.png
       rect:
@@ -351,6 +574,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00019.png
       rect:
@@ -365,6 +595,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00020.png
       rect:
@@ -379,6 +616,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00021.png
       rect:
@@ -393,6 +637,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00022.png
       rect:
@@ -407,6 +658,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00023.png
       rect:
@@ -421,6 +679,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00024.png
       rect:
@@ -435,6 +700,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00025.png
       rect:
@@ -449,6 +721,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00026.png
       rect:
@@ -463,6 +742,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 25305410000000000800000000000000
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00027.png
       rect:
@@ -477,6 +763,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 45305410000000000800000000000000
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00028.png
       rect:
@@ -491,6 +784,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 65305410000000000800000000000000
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00029.png
       rect:
@@ -505,6 +805,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 85305410000000000800000000000000
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00030.png
       rect:
@@ -519,6 +826,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: a5305410000000000800000000000000
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00031.png
       rect:
@@ -533,6 +847,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: c5305410000000000800000000000000
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00032.png
       rect:
@@ -547,6 +868,13 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: e5305410000000000800000000000000
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     - serializedVersion: 2
       name: COLLISION_anim_00033.png
       rect:
@@ -561,9 +889,60 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
+      bones: []
+      spriteID: 06305410000000000800000000000000
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      COLLISION_anim_00001.png: 21300000
+      COLLISION_anim_00002.png: 21300002
+      COLLISION_anim_00003.png: 21300004
+      COLLISION_anim_00004.png: 21300006
+      COLLISION_anim_00005.png: 21300008
+      COLLISION_anim_00006.png: 21300010
+      COLLISION_anim_00007.png: 21300012
+      COLLISION_anim_00008.png: 21300014
+      COLLISION_anim_00009.png: 21300016
+      COLLISION_anim_00010.png: 21300018
+      COLLISION_anim_00011.png: 21300020
+      COLLISION_anim_00012.png: 21300022
+      COLLISION_anim_00013.png: 21300024
+      COLLISION_anim_00014.png: 21300026
+      COLLISION_anim_00015.png: 21300028
+      COLLISION_anim_00016.png: 21300030
+      COLLISION_anim_00017.png: 21300032
+      COLLISION_anim_00018.png: 21300034
+      COLLISION_anim_00019.png: 21300036
+      COLLISION_anim_00020.png: 21300038
+      COLLISION_anim_00021.png: 21300040
+      COLLISION_anim_00022.png: 21300042
+      COLLISION_anim_00023.png: 21300044
+      COLLISION_anim_00024.png: 21300046
+      COLLISION_anim_00025.png: 21300048
+      COLLISION_anim_00026.png: 21300050
+      COLLISION_anim_00027.png: 21300052
+      COLLISION_anim_00028.png: 21300054
+      COLLISION_anim_00029.png: 21300056
+      COLLISION_anim_00030.png: 21300058
+      COLLISION_anim_00031.png: 21300060
+      COLLISION_anim_00032.png: 21300062
+      COLLISION_anim_00033.png: 21300064
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
