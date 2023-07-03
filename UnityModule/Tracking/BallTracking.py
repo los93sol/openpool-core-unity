@@ -76,7 +76,7 @@ def track_balls(image):
         result = cv2.matchTemplate(gray, template, cv2.TM_CCOEFF_NORMED)
 
         # Define a threshold for considering a match
-        threshold = 0.6
+        threshold = 0.8
 
         # Get the locations where the template matches the image above the threshold
         locations = np.where(result >= threshold)
@@ -94,7 +94,7 @@ def track_balls(image):
             detections.append((x, y, x + w, y + h))
 
     # Apply non-maximum suppression to keep only the most confident and non-overlapping detections
-    detections = non_max_suppression(np.array(detections), probs=None, overlapThresh=0.35)
+    detections = non_max_suppression(np.array(detections), probs=None, overlapThresh=0.1)
 
     # Draw bounding boxes around the detected balls
     for (x1, y1, x2, y2) in detections:
