@@ -103,7 +103,7 @@ def track_balls(image):
     return image
 
 def main():
-    camera_index = 1
+    camera_index = 0
 
     # Check if the ROI file exists
     if os.path.exists(ROI_FILE):
