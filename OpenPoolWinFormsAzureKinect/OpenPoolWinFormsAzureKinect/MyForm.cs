@@ -6,18 +6,18 @@ namespace OpenPoolWinFormsAzureKinect
     {
         public ManualResetEvent TargetSetEvent = new ManualResetEvent(false);
 
-        private int ThreshNearValue;
-        private int ThreshFarValue;
-        private int BlobMinValue;
-        private int BlobMaxValue;
-        private int AntiNoiseValue;
-        private int BallSmoothingValue;
-        private int PreviousBallDistanceThresholdValue;
+        public int ThreshNearValue { get; private set; }
+        public int ThreshFarValue { get; private set; }
+        public int BlobMinValue { get; private set; }
+        public int BlobMaxValue { get; private set; }
+        public int AntiNoiseValue { get; private set; }
+        public int BallSmoothingValue { get; private set; }
+        public int PreviousBallDistanceThresholdValue { get; private set; }
 
-        private int rect0x;
-        private int rect0y;
-        private int rect0width;
-        private int rect0height;
+        public int rect0x { get; private set; }
+        public int rect0y { get; private set; }
+        public int rect0width { get; private set; }
+        public int rect0height { get; private set; }
 
         private int rectcx;
         private int rectcy;
@@ -25,8 +25,13 @@ namespace OpenPoolWinFormsAzureKinect
         private int rectcheight;
 
         private List<Rect> ignoreRects = new List<Rect>();
+        public List<Rect> GetIgnoreRects => ignoreRects;
 
         private Thread kinectManagerThread;
+
+        private delegate void delegateUpdateKinectImage(Bitmap bitmap);
+        private delegate void delegateUpdateFPSLabel(string fps);
+        private delegate void UpdateKinectImageDelegate(Bitmap bmp);
 
         public MyForm()
         {
@@ -150,7 +155,7 @@ namespace OpenPoolWinFormsAzureKinect
             targetSetup.ShowDialog(this);
 
             TargetSetEvent.Set();
-    }
+        }
 
         private void exitEToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -209,6 +214,71 @@ namespace OpenPoolWinFormsAzureKinect
         {
             labelPreviousBallDistanceValue.Text = trackBarPreviousBallDistance.Value.ToString();
             PreviousBallDistanceThresholdValue = trackBarPreviousBallDistance.Value;
+        }
+
+        public void UpdateKinectImage0(Bitmap bmp)
+        {
+            if (InvokeRequired)
+            {
+                var d = new delegateUpdateKinectImage(UpdateKinectImage0);
+                Invoke(d, bmp);
+                return;
+            }
+
+            using var graphics0 = pictureBoxKinect0.CreateGraphics();
+            var rect0 = new Rectangle(0, 0, pictureBoxKinect0.Width, pictureBoxKinect0.Height);
+            graphics0.DrawImage(bmp, rect0);
+            graphics0.DrawRectangle(Pens.Red, rect0x, rect0y, rect0width, rect0height);
+        }
+
+        public void UpdateFPSLabel(string text)
+        {
+            if (InvokeRequired)
+            {
+                var d = new delegateUpdateFPSLabel(UpdateFPSLabel);
+                Invoke(d, text);
+                return;
+            }
+            labelFPS.Text = text;
+        }
+
+        public void UpdateKinectImagec(Bitmap bmp)
+        {
+            if (InvokeRequired)
+            {
+                var d = new UpdateKinectImageDelegate(UpdateKinectImagec);
+                Invoke(d, bmp);
+                return;
+            }
+
+            using var graphicsc = pictureBoxCombined.CreateGraphics();
+            var rect1 = new Rectangle(0, 0, pictureBoxCombined.Width, pictureBoxCombined.Height);
+            graphicsc.DrawImage(bmp, rect1);
+            graphicsc.DrawRectangle(Pens.Orange, rectcx, rectcy, rectcwidth, rectcheight);
+
+            foreach (var irect in ignoreRects)
+            {
+                graphicsc.DrawRectangle(Pens.Red, irect.X, irect.Y, irect.Width, irect.Height);
+            }
+        }
+
+        private void pictureBoxKinect0_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            rect0x = e.X;
+            rect0y = e.Y;
+            rect0width = 1;
+            rect0height = 1;
+        }
+
+        private void pictureBoxKinect0_MouseMove(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            if (e.Button == System.Windows.Forms.MouseButtons.Left &&
+                e.X - rect0x > 0 && e.X < pictureBoxKinect0.Size.Width &&
+                e.Y - rect0y > 0 && e.Y < pictureBoxKinect0.Size.Height)
+            {
+                rect0width = e.X - rect0x;
+                rect0height = e.Y - rect0y;
+            }
         }
     }
 }

@@ -88,6 +88,8 @@
             pictureBoxKinect0.Size = new Size(299, 265);
             pictureBoxKinect0.TabIndex = 0;
             pictureBoxKinect0.TabStop = false;
+            pictureBoxKinect0.MouseDown += pictureBoxKinect0_MouseDown;
+            pictureBoxKinect0.MouseMove += pictureBoxKinect0_MouseMove;
             // 
             // pictureBoxCombined
             // 
